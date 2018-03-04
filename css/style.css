@@ -113,7 +113,7 @@ body {
 
 @media (max-width: 1360px) {
     .main {
-        top: 175px;
+        top: 150px;
     }
     .name h1 {
         font-size: 80px;
