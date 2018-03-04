@@ -110,3 +110,12 @@ body {
         font-size: 70px;
     }
 }
+
+@media (max-width: 1360px) {
+    .main {
+        top: 175px;
+    }
+    .name h1 {
+        font-size: 80px;
+    }
+}
