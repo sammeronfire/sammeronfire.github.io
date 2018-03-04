@@ -1,0 +1,103 @@
+
+body {
+    background-color: #f5da55;
+    font-family: 'true_liesregular', Verdana, sans-serif;
+}
+
+
+.main {
+    position: relative;
+    text-align: center;
+    top: 250px;
+    margin: 0 auto;
+}
+
+.name {
+    margin-bottom: 85px;
+}
+
+.name h1 {
+    font-size: 100px;
+    transform: rotate(-10deg);
+}
+
+.profession {
+    margin-bottom: 60px;
+}
+
+.main hr {
+    width: 140px;
+    border: 0;
+    border-top: 2px solid black;
+    margin-bottom: 80px;
+}
+
+.social-icons {
+    display: inline-block;
+    margin-bottom: 25px;
+    height: 45px;
+    font-size: 35px;
+}
+
+.social-icons a {
+    color: black;
+    text-decoration: none;
+    border: 10px solid transparent;
+}
+
+.social-icons i {
+    display: inline;
+    padding: 30px;
+    
+}
+
+/*.social-icons i:hover {
+    font-size: 37px;
+}*/
+
+.social-icons .vk, .tw, .git {
+    display: inline;  
+}
+
+/*.social-icons .git {
+    padding-right: 0;
+}*/
+
+.e-mail a {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+
+@media (max-width: 768px) {
+    .main {
+        top: 135px;
+    }
+
+    .name h1 {
+        font-size: 55px;
+    }
+
+    .social-icons i {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 960px) {
+    .main {
+        top: 110px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .name h1 {
+        font-size: 87px;
+    }
+}
+
+@media (max-width: 420px) {
+    .name h1 {
+        font-size: 55px;
+    }
+}
