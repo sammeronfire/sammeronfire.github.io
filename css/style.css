@@ -55,7 +55,7 @@ body {
     font-size: 37px;
 }*/
 
-.social-icons .vk, .tw, .git {
+.social-icons .vk, .tw, .git, .email {
     display: inline;  
 }
 
@@ -94,6 +94,9 @@ body {
     .name h1 {
         font-size: 80px;
     }
+    .main {
+        top: 160px;
+    
 }
 
 @media (max-width: 420px) {
