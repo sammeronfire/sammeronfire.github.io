@@ -4,10 +4,14 @@ body {
     background-color: #c8eafc;
 }
 
+header {
+    margin-bottom: 40px;
+}
+
 .main {
     display: block;
     margin: 0 auto; 
-    width: 70%;
+    width: 80%;
 }
 
 .name h1 {
@@ -29,4 +33,53 @@ body {
 .social-icons a {
     color: white;
     text-decoration: none;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section .content-item {
+    min-width: 0;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+section img {
+    width: 500px;
+    max-width: 100%;
+    max-height: 450px;
+    transition: 0.5s all ease;
+    vertical-align: middle;
+}
+
+section h2 {
+    font-family: 'Amatic SC', cursive;
+    position: absolute;
+    bottom: -25px;
+    right: 15px;
+    font-size: 4em;
+    margin: 0;
+    opacity: 0;
+    transition: 0.8s opacity ease;
+    text-transform: uppercase;
+}
+
+section a {
+    text-decoration: none;
+    color: white;
+    outline: 10px solid white;
+}
+
+section a:hover {
+    text-decoration: none;
+    color: white;
+    outline: 10px solid rgb(236, 193, 193);
+    transition: 0.8s all ease;
+}
+
+section a:hover h2 {
+    opacity: 1;
 }
