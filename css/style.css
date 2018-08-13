@@ -76,7 +76,7 @@ section a {
 section a:hover {
     text-decoration: none;
     color: white;
-    outline: 10px solid rgb(236, 193, 193);
+    outline: 10px solid #ecc1c1;
     transition: 0.8s all ease;
 }
 
